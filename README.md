@@ -15,11 +15,11 @@ upcoming!
 ## PCB specifications
 
 Note that this project is optimized for JLCPCB manufacturing.
-	- 2 layers
-	- 50.80 x 17.78 mm
-	- 1.00 mm thickness
-	- any surface finish
-	- any soldermask/silkscreen color
+- 2 layers
+- 50.80 x 17.78 mm
+- 1.00 mm thickness
+- any surface finish
+- any soldermask/silkscreen color
 	
 
 ## License
@@ -29,5 +29,5 @@ This is licensed under the [TAPR Open Hardware Licence](https://tapr.org/the-tap
 ## Credits
 
 Special thanks to:
-	- The NESDev community for advice and help
-	- Finny (grievre/arreffem) for inspiration
+- The NESDev community for advice and help
+- Finny (grievre/arreffem) for inspiration
