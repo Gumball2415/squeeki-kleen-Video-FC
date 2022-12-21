@@ -3,8 +3,7 @@
 NOTICE: Not yet tested!
 an open source hardware external composite video bypass preamplifier modboard for the Famicom/NES
 
-![alt text](docs\squeeki-kleen Video FC-rounded.png)
-
+<img src="docs\squeeki-kleen Video FC-rounded.png" style="max-width:80%;" />
 
 ## About
 I stumbled upon this [composite amplifier circuit](https://www.nesdev.org/wiki/PPU_pinout#Composite_Video_Output) on the NESDev wiki and wanted to give it a whirl.
