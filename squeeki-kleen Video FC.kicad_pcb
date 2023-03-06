@@ -7,11 +7,11 @@
   (paper "User" 131.978 101.6)
   (title_block
     (title "squeeki-kleen! Video FC")
-    (date "2022-12-14")
+    (date "2023-03-06")
     (rev "1.0.0")
     (company "Persune")
     (comment 1 "Schematics based on https://www.nesdev.org/wiki/PPU_pinout#Composite_Video_Output")
-    (comment 2 "Use twisted pair or shielded coaxial cable when connecting PCB output to RCA jack!")
+    (comment 2 "Use twisted pair or shielded cable when connecting PCB output to RCA jack!")
   )
 
   (layers
