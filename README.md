@@ -1,7 +1,6 @@
 # squeeki-kleen-Video-FC
 
-NOTICE: Not yet tested!
-an open source hardware external composite video bypass preamplifier modboard for the Famicom/NES
+An open source hardware external composite video bypass preamplifier modboard for the Famicom/NES
 
 <img src="docs\squeeki-kleen Video FC-rounded.png" style="max-width:80%;" />
 
@@ -30,4 +29,6 @@ This is licensed under the [TAPR Open Hardware Licence](https://tapr.org/the-tap
 
 Special thanks to:
 - The NESDev community for advice and help
+- lidnariq for advice
 - Finny (grievre/arreffem) for inspiration
+- j4m13c0 for testing the board (and notifying me of Q1 pinout error!)
