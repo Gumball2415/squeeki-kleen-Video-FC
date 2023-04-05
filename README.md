@@ -16,7 +16,7 @@ upcoming!
 Note that this project is optimized for JLCPCB manufacturing.
 - 2 layers
 - 50.80 x 17.78 mm
-- 1.00 mm thickness
+- 1.00 mm thickness (or 1.60 mm if you plan to attach the MMCX connector)
 - any surface finish
 - any soldermask/silkscreen color
 	
