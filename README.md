@@ -32,3 +32,7 @@ Special thanks to:
 - lidnariq for advice
 - Finny (grievre/arreffem) for inspiration
 - j4m13c0 for testing the board (and notifying me of Q1 pinout error!)
+
+## Support
+
+If you enjoy this project or find it helpful, please support me on [Ko-Fi](https://ko-fi.com/persune) or [Patreon](https://www.patreon.com/persune)!
