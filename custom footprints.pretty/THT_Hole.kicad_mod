@@ -1,17 +1,86 @@
-(module THT_Hole (layer F.Cu) (tedit 611AAB35)
-  (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
-  (tags "test point THT pad")
-  (attr virtual)
-  (fp_text reference REF** (at 0 -1.648) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value THT_Hole (at 0 1.75) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user %R (at 0 -1.65) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 0 0) (end 1.25 0) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center 0 0) (end 0.96 0) (layer F.SilkS) (width 0.12))
-  (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+(footprint "THT_Hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+	(tags "test point THT pad")
+	(property "Reference" "REF**"
+		(at 0 -1.648 0)
+		(layer "F.SilkS")
+		(uuid "62f13b73-7196-4b95-9741-21fc3b9f764e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "THT_Hole"
+		(at 0 1.75 0)
+		(layer "F.Fab")
+		(uuid "d995472f-c9f1-4e88-bd27-af4800660bac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3afd41d4-d702-4216-8a64-714b0c157770")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8e73388-6e5e-4a3b-9ad1-1efedbba9040")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f89af3fe-af09-4357-8a31-9bd3ffee8fe6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.65 0)
+		(layer "F.Fab")
+		(uuid "ce318ed0-793e-4629-a839-905ae7183bab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16f72407-aa50-4148-a4a5-ee090aa66d05")
+	)
 )
